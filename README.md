@@ -1,4 +1,2 @@
-# myWebsite
- repository for my website
- saurabh singh
- welcome to my portfolio
+# weather app
+ tells temperature and climate of your location
