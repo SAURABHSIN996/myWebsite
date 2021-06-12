@@ -239,6 +239,9 @@ img{
 
 /* Active link */
 
+.active-link{
+    color: var(--first-color);
+}
 
 /* Change background header */
 
@@ -258,7 +261,7 @@ img{
 .home__social{
     display: grid;
     grid-template-columns: max-content;
-    row-gap: 1rem;
+    row-gap: 1.5rem;
 }
 
 .home__social-icon:hover{
@@ -520,6 +523,7 @@ img{
 /*==================== QUALIFICATION ====================*/
 
 
+
 /*==================== SERVICES ====================*/
 
 
@@ -540,7 +544,53 @@ img{
 
 /*==================== FOOTER ====================*/
 
+.footer{
+    padding-top: 2rem;
+}
 
+.footer__container{
+    row-gap: 3.5rem;
+}
+
+.footer__bg{
+    background-color: var(--first-color-second);
+    padding: 2rem 0 3rem;
+}
+
+.footer__title{
+    font-size: var(--h1-font-size);
+    margin-bottom: var(--mb-0-25);
+}
+
+.footer__subtitle{
+    font-size: var(--small-font-size);
+}
+
+.footer__link{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+}
+
+.footer__link:hover{
+    color: var(--first-color-lighter);
+}
+
+.footer__social{
+    font-size: 1.25rem;
+    margin-right: var(--mb-1-5);
+}
+
+.footer__social:hover{
+    color: var(--first-color-lighter);
+}
+
+.footer__title,
+.footer__subtitle,
+.footer__link,
+.footer__social{
+    color: #fff;
+}
 /*========== SCROLL UP ==========*/
 
 
