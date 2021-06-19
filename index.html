@@ -49,7 +49,7 @@
                             </a>
                         </li>
                         <li class="nav__item">
-                            <a href="#contactme" class="nav__link">
+                            <a href="#contact" class="nav__link">
                                 <i class="uil uil-message nav__icon"></i> Contactme
                             </a>
                         </li>
@@ -561,10 +561,10 @@
                 <h2 class="section__title">Testimonial</h2>
                 <span class="section__subtitle">My client sayings</span>
 
-                <div class="testimonial__container container">
-                    <div>
+                <div class="testimonial__container container swiper-container">
+                    <div class="swiper-wrapper">
                         <!--==================== TESTIMONIAL 1 ====================-->
-                        <div class="testimonial__content">
+                        <div class="testimonial__content swiper-slide">
                             <div class="testimonial__data">
                                 <div class="testimonial__header">
                                     <img src="img/testimonial1.jpg" alt="" class="testimonial__img">
@@ -576,19 +576,146 @@
                                 </div>
 
                                 <div>
-
+                                    <i class="uil uil-star testimonial__icon-star"></i> 
+                                    <i class="uil uil-star testimonial__icon-star"></i> 
+                                    <i class="uil uil-star testimonial__icon-star"></i> 
+                                    <i class="uil uil-star testimonial__icon-star"></i> 
+                                    <i class="uil uil-star testimonial__icon-star"></i> 
                                 </div>
                             </div>
+
+                            <p class="testimonial__description">I get a good impression, I carry out my project 
+                                with all the possible quality and attention and support 
+                                24 hours a day.
+                            </p>
+                        </div>
+
+                        <!--==================== TESTIMONIAL 2 ====================-->
+                        <div class="testimonial__content swiper-slide">
+                            <div class="testimonial__data">
+                                <div class="testimonial__header">
+                                    <img src="img/testimonial2.jpg" alt="" class="testimonial__img">
+
+                                    <div>
+                                        <h3 class="testimonial__name">Josh gates</h3>
+                                        <span class="testimonial__client">Client</span>
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <i class="uil uil-star testimonial__icon-star"></i> 
+                                    <i class="uil uil-star testimonial__icon-star"></i> 
+                                    <i class="uil uil-star testimonial__icon-star"></i> 
+                                    <i class="uil uil-star testimonial__icon-star"></i> 
+                                    <i class="uil uil-star testimonial__icon-star"></i> 
+                                </div>
+                            </div>
+
+                            <p class="testimonial__description">I get a good impression, I carry out my project 
+                                with all the possible quality and attention and support 
+                                24 hours a day.
+                            </p>
+                        </div>
+
+                        <!--==================== TESTIMONIAL 3 ====================-->
+                        <div class="testimonial__content swiper-slide">
+                            <div class="testimonial__data">
+                                <div class="testimonial__header">
+                                    <img src="img/testimonial3.jpg" alt="" class="testimonial__img">
+
+                                    <div>
+                                        <h3 class="testimonial__name">Robson green</h3>
+                                        <span class="testimonial__client">Client</span>
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <i class="uil uil-star testimonial__icon-star"></i> 
+                                    <i class="uil uil-star testimonial__icon-star"></i> 
+                                    <i class="uil uil-star testimonial__icon-star"></i> 
+                                    <i class="uil uil-star testimonial__icon-star"></i> 
+                                    <i class="uil uil-star testimonial__icon-star"></i> 
+                                </div>
+                            </div>
+
+                            <p class="testimonial__description">I get a good impression, I carry out my project 
+                                with all the possible quality and attention and support 
+                                24 hours a day.
+                            </p>
                         </div>
                     </div>
-                </div>
 
+                    <div class="swiper-pagination swiper-pagination-testimonial"></div>
+                </div>
             </section>
 
             <!--==================== CONTACT ME ====================-->
             <section class="contact section" id="contact">
+                <h2 class="section__title">Conatct Me</h2>
+                <span class="section__subtitle">Get in touch</span>
 
+                <div class="contact__container container grid">
+                    <div>
+                        <div class="contact__information">
+                            <i class="uil uil-phone contact__icon"></i>
 
+                            <div>
+                                <h3 class="conatct__title">Call Me</h3>
+                                <span class="contact__subtitle">999-888-777</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="contact__information">
+                            <i class="uil uil-envelope contact__icon"></i>
+
+                            <div>
+                                <h3 class="conatct__title">Email Me</h3>
+                                <span class="contact__subtitle">saurabh.9901s@gmail.com</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="contact__information">
+                            <i class="uil uil-location-pin-alt contact__icon"></i>
+
+                            <div>
+                                <h3 class="conatct__title">Location</h3>
+                                <span class="contact__subtitle">Bengaluru, India</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <form action="" class="contact__form grid">
+                        <div class="contact__inputs grid">
+                            <div class="contact__content">
+                                <label for="" class="contact__label">Name</label>
+                                <input type="text" class="contact__input">
+                            </div>
+                            <div class="contact__content">
+                                <label for="" class="contact__label">Email</label>
+                                <input type="email" class="contact__input">
+                            </div>
+                        </div>
+                        <div class="contact__content">
+                            <label for="" class="contact__label">Project</label>
+                            <input type="text" class="contact__input">
+                        </div>
+                        <div class="contact__content">
+                            <label for="" class="contact__label">Message</label>
+                            <textarea name="" id="" cols="0" rows="7" class="contact__input"></textarea>
+                        </div>
+
+                        <div>
+                            <a href="#" class="button button--flex">
+                                Send Message
+                                <i class="uil uil-message button__icon"></i>
+                            </a>
+                        </div>
+                    </form>
+                </div>
             </section>
         </main>
 
